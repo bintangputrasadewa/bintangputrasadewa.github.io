@@ -1,0 +1,194 @@
+* {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:5px 0;
+	background-color: #2c2c2b;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding:15px 0;
+	color: #343939;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+	transition: 0.5s;
+}
+header ul li a:hover {
+	background-color: #232424;
+	color: #fff;
+	transform: scale(0.98);
+}
+.active {
+	background-color: #414545;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('../img/jt.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(75, 71, 93, 0.4);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border:3px solid #fff;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color:#3f4242;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #424646;
+	margin-bottom: 25px;
+}
+.service {
+	padding-bottom: 100px;
+}
+
+.service {
+	background-color: #f9f9f9;
+}
+.box {
+	color:#414342;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+.box .col-4 {
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin:0 auto;
+}
+.box .col-4 h4 {
+	margin:20px 0;
+}
+/* .box .col-7 h4 {
+	margin:25px 0;
+} */
+footer {
+	padding:30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #424646;
+	border-right-color: #424646;
+	border-bottom-color: #424646;
+	animation: puterin .5s linear infinite
+}
+.label {
+	background-color: #424646;
+	color: #fff;
+}
+
+
+.about {
+    display: flex; 
+    justify-content: center; /* Mengatur div horizontally di tengah */
+    align-items: start; /* Mengatur div vertically di tengah */
+    height: 60vh; /* Sesuaikan tinggi div jika diperlukan */
+    text-align: center; /* Mengatur teks ke tengah */
+    flex-direction: column; /* Mengatur anak-anak div menjadi satu kolom */
+}
+
+
+.abouttext {
+    text-align: left; /* Mengatur teks ke kiri */
+    max-width: 600px; /* Maksimum lebar elemen */
+    margin: 0 auto; /* Menengahkan elemen secara horizontal */
+    padding: 20px; /* Padding di sekitar teks */
+}
+
+h3 {
+    font-size: 24px; /* Ukuran font judul "About Me" */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+p {
+    font-size: 18px; /* Ukuran font teks deskripsi */
+    line-height: 1.5; /* Spasi baris antara teks */
+}
